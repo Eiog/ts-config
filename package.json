@@ -8,7 +8,7 @@
   "files": [
     "packages.json",
     "tsconfig.json",
-    "LICENSE",
+    "LICENSE"
   ],
   "scripts": {
     "release": "bumpp -r && pnpm  publish --access public"
