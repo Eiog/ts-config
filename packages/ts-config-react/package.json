@@ -1,0 +1,14 @@
+{
+  "name": "@eiog/ts-config-react",
+  "version": "0.0.1",
+  "description": "ts-config-react",
+  "author": "Eiog (https://github.com/eiog/)",
+  "license": "MIT",
+  "homepage": "https://github.com/eiog/ts-config",
+  "keywords": [
+    "ts-config-react"
+  ],
+  "dependencies": {
+    "@eiog/ts-config-basic": "workspace:*"
+  }
+}

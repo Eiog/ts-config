@@ -1,0 +1,19 @@
+{
+  "name": "@eiog/ts-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.3.0",
+  "author": "Eiog (https://github.com/eiog/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@eiog/ts-config": "workspace:*",
+    "bumpp": "^9.1.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}

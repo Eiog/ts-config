@@ -1,0 +1,14 @@
+{
+  "name": "@eiog/ts-config",
+  "version": "0.0.1",
+  "description": "ts-config",
+  "author": "Eiog (https://github.com/eiog/)",
+  "license": "MIT",
+  "homepage": "https://github.com/eiog/ts-config",
+  "keywords": [
+    "ts-config"
+  ],
+  "dependencies": {
+    "@eiog/ts-config-vue": "workspace:*"
+  }
+}
