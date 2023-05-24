@@ -1,41 +1,15 @@
 lockfileVersion: '6.0'
 
-importers:
-
-  .:
-    devDependencies:
-      '@eiog/ts-config':
-        specifier: workspace:*
-        version: link:packages/ts-config
-      bumpp:
-        specifier: ^9.1.0
-        version: 9.1.0
-      rimraf:
-        specifier: ^5.0.0
-        version: 5.0.0
-      typescript:
-        specifier: ^5.0.4
-        version: 5.0.4
-
-  packages/ts-config:
-    dependencies:
-      '@eiog/ts-config-vue':
-        specifier: workspace:*
-        version: link:../ts-config-vue
-
-  packages/ts-config-basic: {}
-
-  packages/ts-config-react:
-    dependencies:
-      '@eiog/ts-config-basic':
-        specifier: workspace:*
-        version: link:../ts-config-basic
-
-  packages/ts-config-vue:
-    dependencies:
-      '@eiog/ts-config-basic':
-        specifier: workspace:*
-        version: link:../ts-config-basic
+devDependencies:
+  bumpp:
+    specifier: ^9.1.0
+    version: 9.1.0
+  rimraf:
+    specifier: ^5.0.0
+    version: 5.0.0
+  typescript:
+    specifier: ^5.0.4
+    version: 5.0.4
 
 packages:
 
